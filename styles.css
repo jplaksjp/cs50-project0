@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  color: moccasin;
+}
+
+h2 {
+  color: red;
+  margin: 5px;
+  padding: 3px;
+}
+
+@media (min-width: 600px) {
+  div {
+    background-color: springgreen;
+    text-align: center;
+  }
+}
+@media (max-width: 599px) {
+  div {
+    background-color: orange;
+    text-align: center;
+  }
+}
+.bod {
+  border: 1px solid black;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+ul {
+  color: #525050;
+  font-size: 18px;
+}
+
+ol {
+  color: #525050;
+  font-size: 18px;
+}
+
+button {
+  width: 200px;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+/*# sourceMappingURL=styles.css.map */
